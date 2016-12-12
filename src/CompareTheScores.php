@@ -88,20 +88,15 @@ class CompareTheScores
         }
         //Output Result of calculation stdout
         if($this->stud1FinalScore > $this->stud2FinalScore){
-          echo "\n Student One is amazing with a score of $this->stud1FinalScore vs Student Two with a score of $this->stud2FinalScore\n";
+          echo "\n Student One Wins with a score of $this->stud1FinalScore vs Student Two with a score of $this->stud2FinalScore\n";
         }elseif($this->stud2FinalScore > $this->stud1FinalScore){
-          echo "\nStudent Two is amazing with a score of $this->stud2FinalScore vs  Student One with a score of $this->stud1FinalScore\n";
+          echo "\nStudent Two Wins with a score of $this->stud2FinalScore vs  Student One with a score of $this->stud1FinalScore\n";
         }else{
-          echo "\n Both Students are amazing with a score of $this->stud1FinalScore each\n";
+          echo "\n Its a Draw!!!\n";
         }
 
       }else{
         echo "Please re-run the Score Calculator with the same number of scores for both Students!";
       }
     }
-
-
-
-
-
 }
